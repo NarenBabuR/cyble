@@ -54,8 +54,6 @@ That's the only command you need. It runs all 4 test scenarios and prints PASS o
 | `simulation.py` | Test harness — runs all 4 scenarios | **Yes, run this one** |
 | `coordinator.py` | The lock system (LockManager + LockClient) | No — imported by simulation.py |
 | `resource.py` | The protected shared resource (ProtectedCounter) | No — imported by simulation.py |
-| `DESIGN_NOTE.md` | Design decisions, guarantees, and known limitations | Read this |
-| `EXPLAINER.md` | Line-by-line explanation of every file, with diagrams | Read this if new to the topic |
 
 ## What the 4 scenarios test
 
